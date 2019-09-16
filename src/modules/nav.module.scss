@@ -1,0 +1,15 @@
+* {
+  font-family: "Work Sans", sans-serif;
+}
+
+.list {
+  display: flex;
+  width: 40%;
+  justify-content: space-around;
+  letter-spacing: 3px;
+  margin: 5px;
+  position: absolute;
+  left: 50%;
+  top: 26px;
+  list-style: none;
+}

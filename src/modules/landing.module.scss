@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f7f4e9;
+}
+
+.box {
+  top: -10px;
+  position: absolute;
+  width: 45%;
+  max-width: 400px;
+  height: 800px;
+  left: 30px;
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.pearlImage {
+  position: relative;
+  width: 38px;
+  height: 37px;
+  left: 15px;
+  top: 30px;
+}
+
+.mainHeader {
+  position: relative;
+  width: 229px;
+  height: 35px;
+  left: 60px;
+  font-family: "Work Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 35px;
+  top: -30px;
+
+  color: #000000;
+}
+
+.market {
+  position: relative;
+  width: 500px;
+  max-width: 800px;
+  height: 150px;
+  left: 200px;
+  top: 150px;
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: 4px;
+  word-spacing: 4px;
+
+  color: #000000;
+}
+
+.paragraph {
+  position: relative;
+  width: 175px;
+  height: 92px;
+  top: 190px;
+  left: 200px;
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 23px;
+
+  color: #4e4e4e;
+}

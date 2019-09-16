@@ -4,6 +4,8 @@ import { Link } from "react-router-dom";
 import SignOutButton from "../SignOut";
 import * as ROUTES from "../../constants/routes";
 
+import navStyles from "../../modules/nav.module.scss";
+
 import { AuthUserContext } from "../Session";
 
 const Navigation = ({ authUser }) => (
@@ -36,14 +38,13 @@ const NavigationAuth = () => (
 );
 
 const NavigationNonAuth = () => (
-  <ul>
-    <li>
-      <Link to={ROUTES.LANDING}>Landing</Link>
-    </li>
-    <li>
-      <Link to={ROUTES.SIGN_IN}>Sign In</Link>
-    </li>
-  </ul>
+  <div>
+    <ul className={navStyles.list}>
+      <li>Projects</li>
+      <li>Team</li>
+      <li>About</li>
+    </ul>
+  </div>
 );
 
 export default Navigation;
