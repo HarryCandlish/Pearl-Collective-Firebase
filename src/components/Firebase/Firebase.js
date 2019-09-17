@@ -3,13 +3,13 @@ import "firebase/auth";
 import "firebase/database";
 
 const config = {
-  apiKey: "AIzaSyBW1r-SyWx7KkZXYOAIl9cy4ez2RaN3wA8",
-  authDomain: "books-76014.firebaseapp.com",
-  databaseURL: "https://books-76014.firebaseio.com",
-  projectId: "books-76014",
+  apiKey: "AIzaSyAEv8XyIy_xjmc9AqzcbV3iNRiA9WRVYa0",
+  authDomain: "pearl-486d5.firebaseapp.com",
+  databaseURL: "https://pearl-486d5.firebaseio.com",
+  projectId: "pearl-486d5",
   storageBucket: "",
-  messagingSenderId: "357195371811",
-  appId: "1:357195371811:web:6f863acc2d76c450"
+  messagingSenderId: "759519451803",
+  appId: "1:759519451803:web:fe441cb0f489e47c26443e"
 };
 
 class Firebase {

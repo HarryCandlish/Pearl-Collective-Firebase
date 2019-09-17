@@ -20,16 +20,16 @@ const Navigation = ({ authUser }) => (
 const NavigationAuth = () => (
   <ul>
     <li>
-      <Link to={ROUTES.LANDING}>Landing</Link>
+      <Link to={ROUTES.LANDING}>My Projects</Link>
     </li>
     <li>
-      <Link to={ROUTES.HOME}>Home</Link>
+      <Link to={ROUTES.HOME}>My Clients</Link>
     </li>
     <li>
-      <Link to={ROUTES.ACCOUNT}>Account</Link>
+      <Link to={ROUTES.ACCOUNT}>Skills</Link>
     </li>
     <li>
-      <Link to={ROUTES.ADMIN}>Admin</Link>
+      <Link to={ROUTES.ADMIN}>Profile</Link>
     </li>
     <li>
       <SignOutButton />
