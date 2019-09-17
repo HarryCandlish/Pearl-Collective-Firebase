@@ -18,12 +18,12 @@ const Navigation = ({ authUser }) => (
 );
 
 const NavigationAuth = () => (
-  <ul>
+  <ul className={navStyles.dashList}>
     <li>
       <Link to={ROUTES.LANDING}>My Projects</Link>
     </li>
     <li>
-      <Link to={ROUTES.HOME}>My Clients</Link>
+      <Link to={ROUTES.CLIENTS}>My Clients</Link>
     </li>
     <li>
       <Link to={ROUTES.ACCOUNT}>Skills</Link>
