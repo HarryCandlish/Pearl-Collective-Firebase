@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #f7f4e9;
+  background-color: #f7f7f7;
 }
 
 .box {
@@ -69,4 +69,18 @@ body {
   line-height: 23px;
 
   color: #4e4e4e;
+}
+
+.plantImage {
+  position: relative;
+  width: 100%;
+  height: 655px;
+
+  top: 30px;
+}
+
+.signupButton {
+  position: relative;
+  top: 200px;
+  left: 200px;
 }

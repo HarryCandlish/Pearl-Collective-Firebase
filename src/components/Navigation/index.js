@@ -40,9 +40,18 @@ const NavigationAuth = () => (
 const NavigationNonAuth = () => (
   <div>
     <ul className={navStyles.list}>
-      <li>Projects</li>
-      <li>Team</li>
-      <li>About</li>
+      <Link to={ROUTES.PROJECTS}>
+        <li>Projects</li>
+      </Link>
+      <Link to={ROUTES.CLIENTS}>
+        <li>Clients</li>
+      </Link>
+      <Link to={ROUTES.TEAM}>
+        <li>Team</li>
+      </Link>
+      <Link to={ROUTES.ABOUT}>
+        <li>About</li>
+      </Link>
     </ul>
   </div>
 );
